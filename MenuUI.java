@@ -29,7 +29,7 @@ public class MenuUI extends JFrame {
         textField.setHorizontalAlignment(JTextField.CENTER);
         textField.setFont(new Font("Arial", Font.BOLD, 18));
         textField.setOpaque(false);
-        textField.setEditable(false);
+        textField.setEditable(false);// Blocks any Editing in textbox
         add(textField, BorderLayout.CENTER);
 
         // Menu Bar
