@@ -27,7 +27,7 @@ class Manager extends Employee {
 }
 
 // Main class
-public class Main {
+public class MainRun {
     public static void main(String[] args) {
 
         Employee employee = new Employee("Alice");
