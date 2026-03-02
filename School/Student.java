@@ -1,11 +1,21 @@
 package School;
 
 public class Student {
+
     private int rollno;
     private String name;
     private String address;
 
     public Student(int rollno, String name, String address) {
+
+        if (rollno <= 0) {
+            throw new IllegalArgumentException("Roll number must be positive.");
+        }
+
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Name cannot be empty.");
+        }
+
         this.rollno = rollno;
         this.name = name;
         this.address = address;
