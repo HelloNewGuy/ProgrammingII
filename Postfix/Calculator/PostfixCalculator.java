@@ -97,9 +97,9 @@ public class PostfixCalculator {
     }
 
     public static void main(String[] args) {
-        // File name (make sure it is the same directory or give full path
-        String fileName = "D:\\github learn\\practice 2\\Programming  II\\Postfix\\Calculator\\expressions.txt";
 
+        String fileName = "D:\\github learn\\practice 2\\Programming  II\\Postfix\\Calculator\\expressions.txt";
+        // File name (if you are trying to run a different file make sure to name the same and provide the direct path here ^^^^^^^^^^)
         readFromFile(fileName);
     }
 }
